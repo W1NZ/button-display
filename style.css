@@ -14,34 +14,31 @@ body{
     background-image:url("pictures/x8rXOd0.png");
 }
 .container{
-    display:grid;
-    display: flex;
-    background-color: aquamarine;
+    display:flex;
+    justify-content: center;
+    padding-top:30vh ;
 }
 .przyciski{
-    min-height: 50vh;
     display: grid;
-    width: 50%;
-    background-color: blueviolet;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    justify-content: center;
-    vertical-align: middle;
-    justify-self: left;
+    grid-row-gap: 0px; 
 }
 .btn{
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-position: center;
-    
-}
-.wyswietl{
-    justify-self: right;
-    width: 50%;
-    min-height: 50vh;
-    background-color: black;
+    width: 15em;
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center;
+}
+.wyswietl{
+    width: 30em;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+button{
+    height: 22vh;
+    border:0;
+    background: white;
 }
